@@ -1,11 +1,11 @@
-About opentelemetry-exporter-zipkin-proto-http
-==============================================
+About opentelemetry-exporter-zipkin-proto-http-feedstock
+========================================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-exporter-zipkin-proto-http-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/open-telemetry/opentelemetry-python/tree/main/exporter/opentelemetry-exporter-zipkin-proto-http
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-exporter-zipkin-proto-http-feedstock/blob/main/LICENSE.txt)
 
 Summary: Zipkin Span Protobuf Exporter for OpenTelemetry
 

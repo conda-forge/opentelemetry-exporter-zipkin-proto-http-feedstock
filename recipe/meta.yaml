@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-exporter-zipkin-proto-http" %}
-{% set version = "1.23.0" %}
+{% set version = "1.24.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_exporter_zipkin_proto_http-{{ version }}.tar.gz
-  sha256: 704db1ddc6aead9338fbb20e6ec44a8c51a9603732d69f34e91ade7060936bb3
+  sha256: 580ba78d70a826547a01322f3f32f85f93bc3b94080705855e0d3aa895bfacf6
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.7
     - opentelemetry-api ~=1.3
-    - opentelemetry-exporter-zipkin-json ==1.23.0
+    - opentelemetry-exporter-zipkin-json ==1.24.0
     - opentelemetry-sdk ~=1.11
     - protobuf ~=3.12
     - requests ~=2.7
